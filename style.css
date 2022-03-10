@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #fffdf1;
+}
+
 .menu{
     display: flex;
     padding: 0 8%;
@@ -26,7 +30,7 @@
     height: 26px;
     border-radius: 50%;
     position: absolute;
-    background-color: #fd510c;
+    background-color: #ee7f7f;
     top: 0;
     left: -35px;
 }
@@ -44,5 +48,38 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    border-bottom: 3px solid #fd510c;
+    border-bottom: 3px solid #ee7f7f;
+}
+
+.container{
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+    overflow: hidden;
+}
+
+.left-side h1{
+    font-size: 70px;
+    color: #57313b;
+
+}
+
+.left-side p{
+    color: #57313b;
+    margin-bottom: 30px;
+}
+
+.left-side a{
+    display: inline-block;
+    background-color: #ee7f7f;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.right-side img{
+    width: 600px;
 }
