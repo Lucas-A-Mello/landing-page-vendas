@@ -1,4 +1,4 @@
-*{
+* , *:before , *:after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,6 +33,10 @@ body{
     background-color: #ee7f7f;
     top: 0;
     left: -35px;
+}
+
+.menu nav {
+    padding-left: 400px;
 }
 
 nav ul li{
@@ -82,4 +86,5 @@ nav ul li a:hover{
 
 .right-side img{
     width: 600px;
+    border-radius: 1.25rem;
 }
